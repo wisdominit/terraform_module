@@ -31,6 +31,7 @@ resource "aws_instance" "my_terra_instance" {
     associate_public_ip_address = true
 
     tags = {
-      Name = "terra_instance"
+      Name = var.instance_name
     }
+
 }
