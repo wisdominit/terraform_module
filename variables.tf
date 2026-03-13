@@ -19,3 +19,8 @@ variable "instance_type" {
     description = "ec2 instance type"
     default = "t2.micro"
 }
+
+variable "instance_name" {
+    description = "ec2 instance name"
+    default = "my_ec2_instance"
+}
